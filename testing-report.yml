@@ -1,0 +1,47 @@
+---
+- summary: |
+    Регистрация пользователя
+ status: fail
+ 
+- summary: |
+    Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
+  status: fail
+
+- summary: |
+    status: fail
+
+- summary: |
+    Проверка перелистования католога
+  status: pass
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Удаление товара из корзины
+  status: pass
+
+- summary: |
+    Итоговая проверка списка товара в корзине
+  status: pass
+
+- summary: |
+    Очистка корзины
+  status: pass
+
+- summary: |
+    Проверка фильтра категории
+  status: pass
+
+- summary: |
+    Проверка фильтра бренд
+  status: pass
+
+- summary: |
+    Проверка фильтра стоимости товара
+  status: pass
+
+- summary: |
+    Проверка карточки товара
+ status: pass
