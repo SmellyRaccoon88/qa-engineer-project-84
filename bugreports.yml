@@ -14,3 +14,17 @@
     Корзина должна быть пустой
   actual-result: |
     В корзине отображаются товары добавленые ранее
+    
+    - summary: |
+    Исчезают все товары при выборе сортировки "In Stock"
+  environment: |
+    Google Chrome   123.0.6312.106 (Официальная сборка), (64 бит)
+    ОС Windows 10 Pro
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Выбрать сортировку товаров с помощью фильтра "In Stock"
+  expected-result: |
+    Должны отобразиться товары в наличии
+  actual-result: |
+    Све товары исчезают 
+
