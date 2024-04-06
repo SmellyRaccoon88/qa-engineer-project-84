@@ -8,6 +8,7 @@
   status: fail
 
 - summary: |
+    Проверка входа пользователя с несуществующими логином и паролем
     status: fail
 
 - summary: |
